@@ -1,13 +1,16 @@
 html, body {
   height: 100%;
   font-family: 'Fira Sans', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .wrapper {
-  --text-color: #000;
-  --text-alt-color: #FFF;
-  --background-color: #FFF;
-  --scale: 4;
+  --text-color: #FFF;
+  --text-alt-color: #77BB3F;
+  --background-color: var(--text-alt-color);
+  --scale: 3;
+  background: var(--background-color);
   height: 100%;
   display: flex;
   align-items: center;
@@ -132,6 +135,7 @@ html, body {
 .label {
   margin-left: calc(1rem * var(--scale));
   font-size: calc(12px * var(--scale) * 2);
+  color: var(--text-color);
 }
 
 .label span {
