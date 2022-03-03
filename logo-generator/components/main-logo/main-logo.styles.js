@@ -2,9 +2,9 @@ import { css } from "lit";
 
 export const mainLogoStyles = css`
   :host {
-    --text-color: #fff;
-    --text-alt-color: #77bb3f;
-    --background-color: var(--text-alt-color);
+    --text-color: #000;
+    --text-alt-color: #FFF;
+    --background-color: #FFF
     --scale: 3;
     background: var(--background-color);
     padding: calc(1rem * var(--scale)) calc(3rem * var(--scale));

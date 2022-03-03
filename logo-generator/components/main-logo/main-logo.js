@@ -5,13 +5,19 @@ export class MainLogo extends LitElement {
 
     static get properties() {
         return {
-            scale: { type: Number, reflect: true }
+            scale: { type: Number, reflect: true },
+            textColor: { type: String, attribute: "text-color" },
+            textAltColor: { type: String, attribute: "text-alt-color" },
+            backgroundColor: { type: String, attribute: "background-color" }
         }
     }
 
     constructor() {
         super();
         this.scale = 1;
+        this.textColor = "#000";
+        this.textAltColor = "#FFF";
+        this.backgroundColor = "#FFF";
     }
 
     /**
@@ -20,7 +26,15 @@ export class MainLogo extends LitElement {
     updated(_changedProperties) {
         if (_changedProperties.has("scale")) {
             this.style.setProperty("--scale", this.scale.toString());
-
+        }
+        if (_changedProperties.has("textColor")) {
+            this.style.setProperty("--text-color", this.textColor);
+        }
+        if (_changedProperties.has("textAltColor")) {
+            this.style.setProperty("--text-alt-color", this.textAltColor);
+        }
+        if (_changedProperties.has("backgroundColor")) {
+            this.style.setProperty("--background-color", this.backgroundColor);
         }
     }
 
