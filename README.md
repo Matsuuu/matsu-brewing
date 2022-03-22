@@ -13,3 +13,10 @@
     - Base for all layout themes
 
 - Some Rapt Pill Integration
+
+### Programming base layout theme
+
+Something similiar to what Neofetch outputs. Having a ASCIi or a stylish image on the left, and
+the spec of the actual beer on the right.
+
+
