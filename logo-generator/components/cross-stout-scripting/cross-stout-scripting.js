@@ -13,7 +13,7 @@ export class CrossStoutScripting extends EtiquetteBase {
         this.info = {
             "Beer Style": "Milk Stout",
             "Developer's notes": "What if we tried to make a stout that tasted like hot chocolate? ",
-            "Pair with": "A laid back session of coding or an end of day code review",
+            "Pair with": "An intense Fuzzing session or a well deserved reward after a day of bug bounties",
             "Hops": "East Kent Goldings",
             "ABV": "6.8%",
             "Ingredients": "Water, Barley malt, Wheat Malt, Cococa nibs, lactose, hops, yeast",
