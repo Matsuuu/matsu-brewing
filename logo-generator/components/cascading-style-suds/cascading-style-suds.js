@@ -8,7 +8,11 @@ export class CascadingStyleSuds extends EtiquetteBase {
 
         this.splashImage = ascii;
         this.beerName = "Cascading-Style-Suds";
-        this.beerStyle = "India Pale Lager";
+
+        this.info = {
+            "Beer Style": "India Pale Lager",
+            "Hops": "Cascade"
+        }
     }
 
     static get styles() {

@@ -9,7 +9,7 @@ export class EtiquetteBase extends LitElement {
             splashImageFontSize: { type: String },
 
             beerName: { type: String },
-            beerStyle: { type: String },
+            info: { type: Object },
         };
     }
 
@@ -19,7 +19,7 @@ export class EtiquetteBase extends LitElement {
         this.splashImage = html``;
         this.splashImageFontSize = "3.5px";
         this.beerName = "";
-        this.beerStyle = "";
+        this.info = {};
     }
 
     /**
@@ -44,7 +44,9 @@ export class EtiquetteBase extends LitElement {
         <p class="name">${this.beerName}@Matsu-Brewing</p>
         <p>${"-".repeat(`${this.beerName}@Matsu-Brewing`.length)}</p>
         <br />
-        <p><b>Beer Style</b>: ${this.beerStyle}</p>
+        ${Object.keys(this.info).map(
+            (key) => html` <p><b>${key}</b>: ${this.info[key]}</p> `
+        )}
       </div>
       <main-logo scale="0.5" background-color="transparent"></main-logo>
     `;
@@ -87,6 +89,7 @@ export class EtiquetteBase extends LitElement {
         .neofetch > p {
           padding: 0;
           margin: 0;
+          line-height: 1.2;
         }
 
         .neofetch b {
