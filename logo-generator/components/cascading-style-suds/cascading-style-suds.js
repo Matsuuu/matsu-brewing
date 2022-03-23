@@ -26,7 +26,7 @@ export class CascadingStyleSuds extends EtiquetteBase {
             css`
         :host {
           --main-color: #d3dcff;
-          --background: #202330;
+          --background-color: #202330;
           --secondary-color: #ffffff;
 
           --logo-text-color: #d3dcff;

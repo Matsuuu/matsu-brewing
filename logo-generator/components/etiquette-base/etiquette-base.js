@@ -80,6 +80,7 @@ export class EtiquetteBase extends LitElement {
           align-items: center;
           padding: 3rem 3rem;
           box-sizing: border-box;
+          justify-content: space-between;
 
           background: var(--background-color, #202330);
         }
@@ -113,7 +114,7 @@ export class EtiquetteBase extends LitElement {
 
         .name {
           color: var(--main-color);
-            font-weight: bold;
+          font-weight: bold;
         }
 
         .brewery-logo {
