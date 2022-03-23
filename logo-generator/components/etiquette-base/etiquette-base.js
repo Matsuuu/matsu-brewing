@@ -76,7 +76,7 @@ export class EtiquetteBase extends LitElement {
           height: calc(220px * var(--scale));
           display: flex;
           flex-direction: column;
-          margin: 1rem;
+          margin: 6rem 1rem;
           align-items: center;
           padding: 3rem 3rem;
           box-sizing: border-box;
