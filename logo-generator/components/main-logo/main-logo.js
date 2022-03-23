@@ -15,9 +15,9 @@ export class MainLogo extends LitElement {
     constructor() {
         super();
         this.scale = 1;
-        this.textColor = "#000";
-        this.textAltColor = "#FFF";
-        this.backgroundColor = "#FFF";
+        this.textColor = "";
+        this.textAltColor = "";
+        this.backgroundColor = "";
     }
 
     /**
