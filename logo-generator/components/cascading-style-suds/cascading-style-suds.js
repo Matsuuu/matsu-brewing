@@ -1,6 +1,7 @@
 import { css, html } from "lit";
 import { EtiquetteBase } from "../etiquette-base/etiquette-base.js";
 import { ascii } from "./ascii.js";
+import "../main-logo/main-logo.js";
 
 export class CascadingStyleSuds extends EtiquetteBase {
     constructor() {

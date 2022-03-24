@@ -138,6 +138,7 @@ export class EtiquetteBase extends LitElement {
           padding: 1rem 0 1rem 0.5rem;
           display: flex;
           gap: 0.5rem;
+          font-size: calc(var(--scale) * 0.55rem);
         }
 
         .username,

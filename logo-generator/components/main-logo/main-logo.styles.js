@@ -10,6 +10,7 @@ export const mainLogoStyles = css`
     padding: calc(1rem * var(--scale)) calc(3rem * var(--scale));
     display: flex;
       width: fit-content;
+      height: fit-content;
     align-items: center;
     justify-content: center;
   }
