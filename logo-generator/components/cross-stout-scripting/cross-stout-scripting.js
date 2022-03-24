@@ -1,6 +1,7 @@
 import { css, html } from "lit";
 import { EtiquetteBase } from "../etiquette-base/etiquette-base.js";
 import { ascii } from "./ascii.js";
+import "../main-logo/main-logo.js";
 
 export class CrossStoutScripting extends EtiquetteBase {
     constructor() {
@@ -30,7 +31,7 @@ export class CrossStoutScripting extends EtiquetteBase {
           --background-color: #1d1a18;
           --secondary-color: #ffffff;
 
-          --logo-text-color: #432200;
+          --logo-text-color: #664b30;
           --logo-text-alt-color: #1d1a18;
           --logo-background-color: transparent;
         }
