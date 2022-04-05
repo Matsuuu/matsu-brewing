@@ -16,7 +16,7 @@ export class CrossStoutScripting extends EtiquetteBase {
             "Developer's notes": "What if we tried to make a stout that tasted like hot chocolate? ",
             "Operating Environment": "An intense Fuzzing session or a well deserved reward after a day of bug bounties",
             "Hops": "Fuggle && East Kent Goldings",
-            "ABV": "6.8%",
+            "ABV": "5.8%",
             "Ingredients": "Water, Barley malt, Wheat Malt, Cococa nibs, lactose, hops, yeast",
             "Author": "Matsu (https://matsu.beer)"
         }
