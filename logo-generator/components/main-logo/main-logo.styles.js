@@ -2,6 +2,7 @@ import { css } from "lit";
 
 export const mainLogoStyles = css`
   :host {
+    font-family: 'Fira Sans', sans-serif;
     --text-color: #000;
     --text-alt-color: #FFF;
     --background-color: #FFF

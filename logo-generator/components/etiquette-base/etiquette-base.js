@@ -43,7 +43,7 @@ export class EtiquetteBase extends LitElement {
         <div class="splash-image">${this.splashImage}</div>
         <div class="neofetch">
           <p class="name">${this.beerName} @ Matsu-Brewing</p>
-          <p>${"-".repeat(`${this.beerName}@Matsu-Brewing`.length)}</p>
+          <p>${"-".repeat(`${this.beerName} @ Matsu-Brewing`.length)}</p>
           ${Object.keys(this.info).map(
             (key) => html` <p><b>${key}</b>: ${this.info[key]}</p> `
         )}
