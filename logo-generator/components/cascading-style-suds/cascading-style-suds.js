@@ -11,11 +11,11 @@ export class CascadingStyleSuds extends EtiquetteBase {
         this.beerName = "Cascading-Style-Suds";
 
         this.info = {
-            "Beer Style": "India Pale Lager",
-            "Developer's notes": "A fresh and crushable love child of an IPA and a Lager",
-            "Operating Environment": "A laid back session of coding or an end of day code review",
+            "Beer Style": "West Coast Session IPA",
+            "Developer's notes": "@media only beer and (max-abv: 3.0%)",
+            "Operating Environment": "A laid back session of pair programming or an end of day code review",
             "Hops": "Cascade",
-            "ABV": "5.0%",
+            "ABV": "3.0%",
             "Ingredients": "Water, Barley malt, Wheat Malt, hops, yeast",
             "Author": "Matsu (https://matsu.beer)"
         }

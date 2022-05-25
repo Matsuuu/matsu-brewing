@@ -96,7 +96,7 @@ export class EtiquetteBase extends LitElement {
         .neofetch {
           display: flex;
           height: 100%;
-          width: 50%;
+          width: 51%;
           flex-direction: column;
           color: var(--secondary-color);
           font-size: calc(var(--scale) * 0.55rem);
