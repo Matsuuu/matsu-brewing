@@ -12,10 +12,10 @@ export class CascadingStyleSuds extends EtiquetteBase {
 
         this.info = {
             "Beer Style": "West Coast Session IPA",
-            "Developer's notes": "@media only beer and (max-abv: 3.0%)",
+            "Developer's notes": "@media only beer and (max-abv: 3.5%)",
             "Operating Environment": "A laid back session of pair programming or an end of day code review",
             "Hops": "Cascade",
-            "ABV": "3.0%",
+            "ABV": "3.3%",
             "Ingredients": "Water, Barley malt, Wheat Malt, hops, yeast",
             "Author": "Matsu (https://matsu.beer)"
         }
